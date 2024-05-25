@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorytmy
+namespace Algorytmy.Algorithms
 {
     internal class CubicEquation
     {
-        static double CubicEquationSolver(double a, double b, double c, double d)
+        public static double CubicEquationSolver(double a, double b, double c, double d)
         {
+            // Przykładowe współczynniki równania sześcinnego: a*x^3 + b*x^2 + c*x + d = 0
+            a = 1;
+            b = -6;
+            c = 11;
+            d = -6;
+
             // Początkowe przybliżenie rozwiązania
             double x0 = 0.0;
 
