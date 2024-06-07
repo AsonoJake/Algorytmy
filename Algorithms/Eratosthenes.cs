@@ -10,8 +10,6 @@ namespace Algorytmy.Algorithms
     {
         public static double ErastothenesSolver(int n)
         {
-            n = 100; // Zakres liczb do sprawdzenia
-
             Console.WriteLine("Liczby pierwsze w przedziale od 2 do " + n + ":");
 
             bool[] prime = new bool[n + 1];

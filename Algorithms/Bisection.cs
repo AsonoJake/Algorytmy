@@ -8,9 +8,9 @@ namespace Algorytmy.Algorithms
 {
     internal class Bisection
     {
-        public static double BisectionMethod(Func<double, double> func, double left, double right, double tolerance, double a, double b, double c, double d, double e, double f)
+        public static double BisectionMethod(double a, double b, double c, double d, double e, double f, double left, double right, double tolerance)
         {
-            Func<double, double> polynomial = (x) =>
+            Func<double, double> func = (x) =>
             a * Math.Pow(x, 5) +
             b * Math.Pow(x, 4) +
             c * Math.Pow(x, 3) +

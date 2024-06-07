@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorytmy.Algorithms
 {
-    internal class Evolutionary
+    internal class Komiwojazer
     {
     }
 }

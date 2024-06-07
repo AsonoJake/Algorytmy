@@ -8,23 +8,8 @@ namespace Algorytmy.Algorithms
 {
     internal class CubicEquation
     {
-        public static double CubicEquationSolver(double a, double b, double c, double d)
+        public static double CubicEquationSolver(double a, double b, double c, double d, double x0, double epsilon, int maxIterations)
         {
-            // Przykładowe współczynniki równania sześcinnego: a*x^3 + b*x^2 + c*x + d = 0
-            a = 1;
-            b = -6;
-            c = 11;
-            d = -6;
-
-            // Początkowe przybliżenie rozwiązania
-            double x0 = 0.0;
-
-            // Dokładność, do której chcemy znaleźć rozwiązanie
-            double epsilon = 1e-6;
-
-            // Maksymalna liczba iteracji
-            int maxIterations = 1000;
-
             // Metoda Newtona-Raphsona
             for (int i = 0; i < maxIterations; i++)
             {
